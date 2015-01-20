@@ -1,0 +1,15 @@
+<div class="users">
+	<div class="separator left clearfix"></div>	
+	<h2>play vs. player</h2>
+	<div class="control-group">
+		{{#each users}}
+			<button type="button" class="start-multi" data-id="{{this._id}}"><span>
+			{{#if this.username}}
+				{{this.username}}
+			{{else}}
+				anonymous
+			{{/if}}
+			</span></button>
+		{{/each}}
+	</div>
+</div>

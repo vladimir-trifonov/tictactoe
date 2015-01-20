@@ -1,0 +1,224 @@
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Audiowide);
+
+html {
+    font-size: 14px
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.splash {
+    width: 400px;
+    height: 200px;
+    margin-top: 30%;
+    padding: 10px;
+}
+label {
+    font-weight: 400;
+}
+form {
+    margin-top: 10px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.center {
+    display: table;
+    margin: 0 auto;
+}
+#canvas {
+    background-color: #fff;
+    display: block;
+    -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2) inset, 0px 0px 8px 2px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2) inset, 0px 0px 8px 2px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2) inset, 0px 0px 8px 2px rgba(0, 0, 0, 0.6);
+    margin: 8% auto;
+}
+.noSelect {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.separator {
+    height: 21px;
+    margin-top: 10px;
+    background-color: currentColor;
+    width: 100%;
+}
+.menu {
+    position: fixed;
+    right: 0;
+    top: 0;
+    display: table;
+    width: 270px;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+.menu {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-width: 0;
+}
+.menu {
+    background-color: rgba(77, 70, 70, 0.5);
+    color: rgba(77, 70, 70, 0.2);
+}
+.menu:hover {
+    background-color: rgba(77, 70, 70, 0.7);
+    color: rgba(77, 70, 70, 0.4);
+}
+.menu h2 {
+    font-size: 16px;
+    color: #000;
+    font-family: 'Audiowide', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    margin-top: 15px;
+}
+.menu .header {
+    font-size: 25px;
+    color: #000;
+    font-family: 'Audiowide', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.ttTable {
+    display: table;
+    margin-top: 10px;
+    width: 100%;
+}
+.ttRow {
+    display: table-row;
+}
+.ttTable .ttCell {
+    padding: 2px 5px 2px 5px;
+    display: table-cell;
+    color: rgba(255, 255, 255, 0.6);
+}
+.ttTable .ttCell:first-child {
+    padding-left: 12px;
+}
+.ttTable .ttCell:last-child {
+    padding-right: 12px;
+}
+.ttCell > span {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    border: 1px solid #000;
+}
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+}
+.title {
+    text-align: center;
+    font-weight: 700;
+}
+.title .ttCell > span {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.ttTable.two-cols .ttCell {
+    width: 50%;
+}
+.control-group {
+    display: block;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.control-group button {
+    width: 70%;
+    margin: 10px auto 0px auto;
+    background: rgba(0, 0, 0, 0.6);    
+    padding: 5px;
+    border: 1px solid #000;
+    display: block;
+}
+.control-group button span {
+    color: rgba(255, 255, 255, 0.6);
+}
+.control-group button:hover span {
+    color: rgba(255, 255, 255, 0.8);
+}
+.users .control-group {
+    max-height: 450px;
+    overflow: auto;
+}
+
+/* ###### Theme #########*/
+.theme {
+    margin-left:auto;
+    margin-right:auto;
+    background: #FFF;
+    padding: 20px;
+    box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;
+    -webkit-box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;
+    font: 16px "Indie Flower", Arial, Helvetica, sans-serif;
+    color: #666;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+.theme h1 {    
+    font-size: 20px;
+    border-bottom: 1px solid #F5F5F5;
+}
+.theme h2 {
+    font-size: 22px;
+    margin-top: 15px ;
+}
+.theme h1,
+.theme h2 {
+    font-family: "Indie Flower", Arial, Helvetica, sans-serif;
+    padding: 10px 0px 10px 0px;
+    display: block;
+    margin: 0px;
+    color: #969696;
+    font-weight: 700;
+}
+.theme h1>span {
+    display: block;
+    font-size: 13px;
+    color: #C4C2C2;
+}
+.theme label {
+    display: block;
+    margin: 0px 0px 5px;
+}
+.theme label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #969696;
+}
+.theme input[type="text"],
+.theme input[type="password"]{
+    color: #555;
+    width: 70%;
+    min-width: 150px;
+    padding: 3px 0px 3px 5px;
+    margin-top: 2px;
+    margin-right: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #e5e5e5;
+    background: #fbfbfb;
+    height: 25px;
+    line-height:15px;
+    outline: 0;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(200,200,200,0.2);
+    box-shadow: inset 1px 1px 2px rgba(200,200,200,0.2);
+}
+.theme textarea{
+    height:100px;
+    padding: 5px 0px 0px 5px;
+    width: 70%;
+    min-width: 150px;
+}
